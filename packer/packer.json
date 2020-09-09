@@ -8,7 +8,7 @@
         "ami_name": "test-Latest-AMZN-{{isotime}}",
         "source_ami": "",
         "s3_bucket_region": "",
-        "s3_bucket_name": "packer-demo-bucket",
+        "s3_bucket_name": "",
         "s3_artifact_name": "sampletestapp.zip",
         "aws_access_key": "",
         "aws_secret_key": ""
