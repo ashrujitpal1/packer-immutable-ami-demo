@@ -35,6 +35,8 @@ pipeline {
                     powershell '''
                         $rootdir = (Resolve-Path .\\).Path
                         Set-Location $rootdir\\packer 
+                        Write-Output "$($ENV:AWS_ACCESS_KEY_ID)"
+                        Write-Output $($ENV:AWS_SECRET_ACCESS_KEY)"
                         packer build -var 'aws_access_key="$($ENV:AWS_ACCESS_KEY_ID)"' -var 'aws_secret_key="$($ENV:AWS_SECRET_ACCESS_KEY)"' packer.json
                     '''
                 }
