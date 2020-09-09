@@ -1,0 +1,9 @@
+.DS_Store
+.terraform
+terraform_provider.tf
+*.tfstate*
+*.tfvars
+*.zip
+tflint.exe
+terraform.exe
+.tflint.hcl
