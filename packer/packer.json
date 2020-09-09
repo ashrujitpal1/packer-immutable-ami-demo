@@ -1,14 +1,14 @@
 {
     "variables": {
         "version": "0.0.1",
-        "vpc": "vpc-04634cba8516fbd64",
-        "subnet": "subnet-04bfa4820fa0baafd",
-        "security_group": "sg-0b25cf9b10a486cd2",
-        "aws_region": "us-east-2",                                       
+        "vpc": "",
+        "subnet": "",
+        "security_group": "",
+        "aws_region": "",                                       
         "ami_name": "test-Latest-AMZN-{{isotime}}",
-        "source_ami": "ami-0239d3998515e9ed1",
-        "s3_bucket_region": "us-east-2",
-        "s3_bucket_name": "packer-demo-bucket",
+        "source_ami": "",
+        "s3_bucket_region": "",
+        "s3_bucket_name": "",
         "s3_artifact_name": "sampletestapp.zip",
         "aws_access_key": "",
         "aws_secret_key": ""
