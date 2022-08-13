@@ -27,7 +27,7 @@ pipeline {
                 withCredentials([[
                 $class: 'AmazonWebServicesCredentialsBinding',
                 accessKeyVariable: 'AWS_ACCESS_KEY_ID', // dev credentials
-                credentialsId: 'AWSCRED',
+                credentialsId: 'Ashrujit-DevOps',
                 secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
                 ]]){
                     powershell '''
