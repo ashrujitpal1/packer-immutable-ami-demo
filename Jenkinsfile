@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'windows-shared'
-    }
+    agent any
 
     stages {
         stage('Cloning the project repository from BitBucket') {
